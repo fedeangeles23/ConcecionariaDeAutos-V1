@@ -1,5 +1,5 @@
-let autos = require('./autos')
-let personas = require('./autos')
+let autos = require('./dataBase/autos')
+let personas = require('./dataBase/autos')
 
 let concesionaria = {
     autos: autos,
