@@ -1,6 +1,7 @@
-# ConcecionariaDeAutos-V1
+# Concesionaria de autos
 
-## Concesionaria de autos
+[![concesionaria.jpg](https://i.postimg.cc/VvFvcNrN/concesionaria.jpg)](https://postimg.cc/JHGMNMQw)
+
 
 Este ejercicio es para que puedas poner en práctica los contenidos más importantes de JavaScript que vimos en este primer módulo de cursada. Al realizarlo, vas a poder asegurar que venís bien con los contenidos. La propuesta es ir en forma incremental con los contenidos vistos, por lo cual es normal que a medida que avances se vuelva más complejo y difícil. Si te resulta más sencillo, podés intentar resolver la ejercitación en VS Code y luego poner la respuesta en Playground. Si en algún momento no lográs avanzar y estás perdido, no dudes en consultar a tus compañeros para lograr comprender qué es lo que hay que hacer y qué es lo que hace el código.
 
@@ -164,7 +165,9 @@ La función debe de realizar los siguientes pasos:
 
 <br>
 
+<img align="center" src= "https://i.postimg.cc/Dfdk3zXc/dhhouse.png)](https://postimg.cc/MXTryqtc"></img>
 
+⭐️ From [@fedeangeles23](https://github.com/fedeangeles23)
 
 
 
