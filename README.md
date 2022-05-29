@@ -1,10 +1,10 @@
 # ConcecionariaDeAutos-V1
-Ejercitación de Playground - Concesionaria de autos (Versión 1)
-
 
 ## Concesionaria de autos
 
 Este ejercicio es para que puedas poner en práctica los contenidos más importantes de JavaScript que vimos en este primer módulo de cursada. Al realizarlo, vas a poder asegurar que venís bien con los contenidos. La propuesta es ir en forma incremental con los contenidos vistos, por lo cual es normal que a medida que avances se vuelva más complejo y difícil. Si te resulta más sencillo, podés intentar resolver la ejercitación en VS Code y luego poner la respuesta en Playground. Si en algún momento no lográs avanzar y estás perdido, no dudes en consultar a tus compañeros para lograr comprender qué es lo que hay que hacer y qué es lo que hace el código.
+
+<br>
 
 ## Objetivos
 
@@ -16,11 +16,15 @@ Este ejercicio es para que puedas poner en práctica los contenidos más importa
  
  - Fortalecer las bases y conceptos de programación con JavaScript.
  
+<br> 
+ 
 ## Metodología
 
 Vamos a simular una situación de trabajo para situarnos en un contexto. Estás trabajando como desarrollador de CodeAR S.A., una reconocida software factory. En el equipo de trabajo contás con María y con Juan.
 
-### Primera semana de trabajo
+<br>
+
+## Primera semana de trabajo
 
 María presenta al equipo un nuevo proyecto para una concesionaria de automóviles, cuya principal línea de negocios es la compra y venta de automóviles. La concesionaria necesita construir una lista con todos los vehículos que tiene registrados. Por cada vehículo necesita conocer la siguiente información:
 
@@ -50,7 +54,13 @@ Cada auto debe tener los siguientes atributos: marca, modelo, precio, km, color,
 
 <br>
 
+#
+
 Ahora que tenemos creada nuestra lista de autos y definida la manera de representar nuestra concesionaria, necesitamos crearla. El objeto concesionaria va a conocer a todos los autos y va disponer de las funcionalidades de buscarlos y venderlos. Pero para no entrar en demasiado detalle, María propone trabajar en tres etapas y en cada una agregar valor. Respondé a las necesidades de cada etapa.
+
+#
+
+<br>
 
 # Etapa 1
 
@@ -60,7 +70,6 @@ Además, necesitarás crear un objeto literal llamado concesionaria que contendr
 
 Por último, nuestro objeto literal debe tener un atributo llamado autos que contenga la lista de automóviles importada anteriormente.
 
-<br>
 
 # Etapa 2
 
@@ -68,7 +77,6 @@ Ahora que la concesionaria tiene los autos, es posible crear la funcionalidad bu
 
 Para que todo funcione tenés que agregar el código que escribiste en el ejercicio anterior.
 
-<br>
 
 # Etapa 3
 
@@ -76,7 +84,13 @@ Ahora, María les pide que agreguen la funcionalidad de venderAuto que recibe la
 
 <br>
 
-¡Genial! Dice María que el cliente está feliz con el trabajo que estamos realizando. Además de comentarle esto, le mencionan que lógicamente ahora les gustaría sumar más funcionalidades.
+#
+ 
+*¡Genial! Dice María que el cliente está feliz con el trabajo que estamos realizando. Además de comentarle esto, le mencionan que lógicamente ahora les gustaría sumar más funcionalidades.*
+
+#
+
+<br>
 
 # Funcionalidad extra
 
@@ -84,15 +98,19 @@ La primera es poder contar, como concesionaria, con la habilidad de poder tener 
 
 Para comenzar, tenés que agregar el código que escribiste en el ejercicio anterior. Tené en cuenta que estamos optimizando nuestro código, por lo cual, deberíamos utilizar el método filter.
 
-<br>
-
 # Una nueva funcionalidad extra
 
 María, contenta con el trabajo que realizaron, les pide otra funcionalidad extra. Resulta que a la concesionaria le suelen preguntar muy seguido cuáles de los autos para la venta son 0 km. Tené en cuenta que María considera que un auto 0 km es aquel que tenga un kilometraje menor a 100. Vas a tener que desarrollar la funcionalidad autosNuevos.
 
 <br>
 
-Luego de terminar un largo y exitoso día, volvés a tu casa a descansar. Al día siguiente, al volver al trabajo, ves a María con un café en la mano: estuvo trabajando toda la noche adelantando cosas y necesita que le des una mano en unas funcionalidades particulares que faltan resolver.
+#
+
+*Luego de terminar un largo y exitoso día, volvés a tu casa a descansar. Al día siguiente, al volver al trabajo, ves a María con un café en la mano: estuvo trabajando toda la noche adelantando cosas y necesita que le des una mano en unas funcionalidades particulares que faltan resolver.*
+
+#
+
+<br>
 
 # Más funcionalidades
 
@@ -100,13 +118,9 @@ El cliente le pidió saber cuánto dinero generaron las ventas.
 
 María te pide que completes la función listaDeVentas que devuelve una lista que contiene el precio de venta de cada auto vendido. A esto, Juan, que está al lado tuyo, se le escapa la frase "mmm.....estoy seguro que alguna función de arrays nos va a servir, pero no me acuerdo".
 
-<br>
-
 # Total de ventas
 
 Terminada esta función, María te pide que resuelvas la funcionalidad de totalDeVentas, que justamente nos devuelva la sumatoria del valor de todas las ventas realizadas. Acá el único requerimiento técnico explícito es que utilices la función reduce, ¡a codear!
-
-<br>
 
 # Agregando funcionalidades
 
@@ -117,15 +131,24 @@ Es por esto que María te pide que desarrolles la función puedeComprar que reci
 Una persona va a ser representada mediante un objeto literal de la siguiente forma:
 
 {
+
 nombre: “Juan”,
+
 capacidadDePagoEnCuotas: 20000,
+
 capacidadDePagoTotal: 100000
+
 }
 
 <br>
 
-Al finalizar de desarrollar la nueva funcionalidad, le proponés al equipo que sería relativamente fácil agregar la funcionalidad que: dada una persona, se le pueda ofrecer fácilmente qué autos puede comprar así no tiene que estar preguntando uno por uno. A Juan y María les encanta la idea, María se la menciona al cliente y esperan con ansias esa nueva funcionalidad.
+#
 
+*Al finalizar de desarrollar la nueva funcionalidad, le proponés al equipo que sería relativamente fácil agregar la funcionalidad que: dada una persona, se le pueda ofrecer fácilmente qué autos puede comprar así no tiene que estar preguntando uno por uno. A Juan y María les encanta la idea, María se la menciona al cliente y esperan con ansias esa nueva funcionalidad.*
+
+#
+
+<br>
 
 # Agregando funcionalidades
 
