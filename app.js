@@ -19,7 +19,12 @@ let concesionaria = {
     listaDeVentas: function(){
         let autosVendidos = autos.filter(auto => auto.vendido === true)
         return autosVendidos.map(auto => auto.precio)
-    }
+    },
+    totalDeVentas: function (){
+        let vendidos = this.listaDeVentas()
+        let total = vendidos.length !==0 ? vendidos.reduce((acum,num) => acum + num) : 0
+        return total
+     }
 
 
 }
@@ -29,3 +34,4 @@ let concesionaria = {
 /* console.log(concesionaria.autosParaLaVenta()); */
 /* console.log(concesionaria.autosNuevos()); */
 /* console.log(concesionaria.listaDeVentas()); */
+/* console.log(concesionaria.totalDeVentas()); */

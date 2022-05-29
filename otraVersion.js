@@ -35,6 +35,14 @@ let concesionaria = {
             return auto.precio
         })
         return precios
+    },
+    totalDeVentas: function (){
+       let vendidos = this.listaDeVentas()
+       if (vendidos.length !==0) {
+            let total = vendidos.reduce((acum,num) => acum + num)
+            return total
+       }
+       return vendidos.length
     }
 
 
@@ -49,3 +57,4 @@ let concesionaria = {
 /* console.log(concesionaria.autosParaLaVenta()); */
 /* console.log(concesionaria.autosNuevos()); */
 /* console.log(concesionaria.listaDeVentas()); */
+console.log(concesionaria.totalDeVentas());
