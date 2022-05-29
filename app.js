@@ -35,7 +35,6 @@ let concesionaria = {
         let autosDisponibles = this.autosParaLaVenta()
         return autosDisponibles.filter( auto => this.puedeComprar(auto,persona))
     }
-
 }
 
 /* console.log(concesionaria.buscarAuto('APL123')); */
@@ -45,4 +44,4 @@ let concesionaria = {
 /* console.log(concesionaria.listaDeVentas()); */
 /* console.log(concesionaria.totalDeVentas()); */
 /* console.log(concesionaria.puedeComprar(autos[3],personas[2])); */
-console.log(concesionaria.autosQuePuedeComprar(personas[0]));
+/* console.log(concesionaria.autosQuePuedeComprar(personas[0])); */

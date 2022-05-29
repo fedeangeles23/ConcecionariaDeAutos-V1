@@ -57,7 +57,8 @@ let concesionaria = {
     },
     autosQuePuedeComprar: function (persona) {
         let autosParaVender = this.autosParaLaVenta()
-        return autosParaVender
+        let autosPuedeComprar = autosParaVender.filter(auto => this.puedeComprar(auto,persona))
+        return autosPuedeComprar
     }
 }
 
@@ -68,4 +69,4 @@ let concesionaria = {
 /* console.log(concesionaria.listaDeVentas()); */
 /* console.log(concesionaria.totalDeVentas()); */
 /* console.log(concesionaria.puedeComprar(autos[3],personas[2])); */
-console.log(concesionaria.autosQuePuedeComprar(personas[0]));
+/* console.log(concesionaria.autosQuePuedeComprar(personas[0])); */
